@@ -1,0 +1,12 @@
+[package]
+name = "reliability-measurements-server"
+version = "0.1.0"
+authors = ["Parth Desai <desaiparth08@gmail.com>"]
+edition = "2018"
+
+[workspace]
+members = ["server", "shared"]
+
+[[bin]]
+name = "server"
+path = "./server"
