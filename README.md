@@ -23,12 +23,14 @@ Performance measurement tests are carried out multiple times to cancel out volat
 
 ### Single thread CPU performance measurement
 
-For CPU power measurement, we are using [timelock](http://bitsavers.trailing-edge.com/pdf/mit/lcs/tr/MIT-LCS-TR-684.pdf) puzzle to measure
+For CPU power measurement, we are using timelock puzzle to measure
 CPU's raw processing capability. 
 
 It has the following advantages:
 1) Puzzle is `intrinsically sequential`, so there is no known way to calculate it in parallel
 2) If secret primes are known, it is easy to verify correctness of the solution.
+
+Reference: http://bitsavers.trailing-edge.com/pdf/mit/lcs/tr/MIT-LCS-TR-684.pdf
 
 ### Network I/O performance measurement
 
